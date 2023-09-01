@@ -8,8 +8,11 @@
 ## Passo a passo detalhado:
 
 Passo 1: Crie uma pasta nova.
+
 Passo 2: Instale o Unity nessa pasta, usando o download no site ou o commando: git clone https://github.com/ThrowTheSwitch/Unity.git
+
 Passo 3: Copie a pasta "src", que é a única que iremos utilizar, e a coloque na sua pasta de escolha. Seu caminho deverá ficar: "../(pasta)/src"
+
 Passo 4: Já no seu código, escreva sua Main.h, que deverá ter as funções a serem testadas. Veja um exemplo:
 
 ```
