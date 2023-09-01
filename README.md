@@ -101,7 +101,9 @@ Passo 7:
 
 Após isso, basta apenas rodar o test.exe que foi gerado pelo gcc. O comando é:
 
+```
 ./test.exe
+```
 
 Caso tudo tenha dado certo, seu terminal deverá imprimir um relatório parecido com este:
 
