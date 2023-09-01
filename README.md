@@ -7,13 +7,13 @@
 
 ## Passo a passo detalhado:
 
-Passo 1: Crie uma pasta nova.
+-Passo 1: Crie uma pasta nova. 
 
-Passo 2: Instale o Unity nessa pasta, usando o download no site ou o commando: git clone https://github.com/ThrowTheSwitch/Unity.git
+-Passo 2: Instale o Unity nessa pasta, usando o download no site ou o commando: git clone https://github.com/ThrowTheSwitch/Unity.git
 
-Passo 3: Copie a pasta "src", que é a única que iremos utilizar, e a coloque na sua pasta de escolha. Seu caminho deverá ficar: "../(pasta)/src"
+-Passo 3: Copie a pasta "src", que é a única que iremos utilizar, e a coloque na sua pasta de escolha. Seu caminho deverá ficar: "../(pasta)/src"
 
-Passo 4: Já no seu código, escreva sua Main.h, que deverá ter as funções a serem testadas. Veja um exemplo:
+-Passo 4: Já no seu código, escreva sua Main.h, que deverá ter as funções a serem testadas. Veja um exemplo:
 
 ```
 int soma(int x, int y) { 
@@ -41,7 +41,7 @@ float areaCirculo(float x)
 }
 ```
 
-Passo 5: Escreve agora seus testes. Idealmente seu arquivo deve-se chamar test.c. A documentação do Unity é muito boa, e o arquivo "Main.c" deste repositório mostra como deve ser feito. No nosso exemplo, utilizaremos apenas o TEST_ASSERT_EQUAL(), mas outras funções podem ser encontradas na documentação. Antes dos seus testes, não se esqueça do void setUp() {}; e void tearDown() {};, assim como no arquivo exemplo neste repositório. Exemplo:
+-Passo 5: Escreve agora seus testes. Idealmente seu arquivo deve-se chamar test.c. A documentação do Unity é muito boa, e o arquivo "Main.c" deste repositório mostra como deve ser feito. No nosso exemplo, utilizaremos apenas o TEST_ASSERT_EQUAL(), mas outras funções podem ser encontradas na documentação. Antes dos seus testes, não se esqueça do void setUp() {}; e void tearDown() {};, assim como no arquivo exemplo neste repositório. Exemplo:
 
 ```
 #include "src/unity.h"
@@ -90,7 +90,7 @@ int main(void) {
 
 Veja que todas são funções do unity.h. Se você não estiver com os caminhos bem sinalizados, o GCC não irá compilar este arquivo, trazendo dores de cabeça desnecessárias.
 
-Passo 6:
+-Passo 6:
 
 Após ter escrito o Main.h e o test.c, conferido todos os erros de sintaxe, e instalado o gcc, rode o comando:
 
@@ -100,7 +100,7 @@ gcc test.c src/unity.c -o test.exe
 
 Isso fará com que o gcc compile o teste utlizando o Unity, criando um arquivo .exe que fará os testes. Erros comuns aqui envolvem suas variáveis de ambiente, e erros de versão do seu gcc. Tome cuidado com isso.
 
-Passo 7:
+-Passo 7:
 
 Após isso, basta apenas rodar o test.exe que foi gerado pelo gcc. O comando é:
 
