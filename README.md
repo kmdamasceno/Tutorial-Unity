@@ -3,7 +3,7 @@
 ## Ferramentas necessárias:
 
 - C/++ toolchain (VSCode)
-- GCC (idealmente a versão mais atualizada)
+- gcc (idealmente a versão mais atualizada)
 
 ## Passo a passo detalhado:
 
