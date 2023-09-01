@@ -41,9 +41,20 @@ float areaCirculo(float x)
 }
 ```
 
--Passo 5: Escreve agora seus testes. Idealmente seu arquivo deve-se chamar test.c. A documentação do Unity é muito boa, e o arquivo "Main.c" deste repositório mostra como deve ser feito. No nosso exemplo, utilizaremos apenas o TEST_ASSERT_EQUAL(), mas outras funções podem ser encontradas na documentação. Antes dos seus testes, não se esqueça do void setUp() {}; e void tearDown() {};, assim como no arquivo exemplo neste repositório. Exemplo:
+-Passo 5: Escreve agora seus testes. Idealmente seu arquivo deve-se chamar test.c. A documentação do Unity é muito boa, e o arquivo "Main.c" deste repositório mostra como deve ser feito. No nosso exemplo, utilizaremos apenas o TEST_ASSERT_EQUAL(), mas outras funções podem ser encontradas na documentação. Antes dos seus testes, não se esqueça do 
 
 ```
+void setUp() {};
+```
+
+ e 
+ 
+```
+ void tearDown() {};
+```
+
+ assim como no arquivo exemplo neste repositório. Exemplo:
+ 
 #include "src/unity.h"
 #include "Main.h"
 
