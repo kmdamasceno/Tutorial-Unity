@@ -91,7 +91,9 @@ Passo 6:
 
 Após ter escrito o Main.h e o test.c, conferido todos os erros de sintaxe, e instalado o gcc, rode o comando:
 
+```
 gcc test.c src/unity.c -o test.exe
+```
 
 Isso fará com que o gcc compile o teste utlizando o Unity, criando um arquivo .exe que fará os testes. Erros comuns aqui envolvem suas variáveis de ambiente, e erros de versão do seu gcc. Tome cuidado com isso.
 
